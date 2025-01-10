@@ -102,13 +102,13 @@ public class loops {
         // // 44444
         // // 555555
 
-        // outer :for(int i=0; i<=5; i++){
-        //     ineer : for(int j=0; j<=i; j++){
-        //         if(i==3) continue outer;
-        //         System.out.print(i);
-        //     }
-        //     System.out.println();
-        // }
+        outer :for(int i=0; i<=5; i++){
+            ineer : for(int j=0; j<=i; j++){
+                if(i==3) continue outer;
+                System.out.print(i);
+            }
+            System.out.println();
+        }
         // //output
         // // 0
         // // 11
@@ -116,14 +116,14 @@ public class loops {
         // // 44444
         // // 555555
 
-        outer :for(int i=0; i<=5; i++){
-            if(i==3) continue ineer;
-            ineer : for(int j=0; j<=i; j++){
-                if(i==3) continue ineer;
-                System.out.print(i);
-            }
-            System.out.println();
-        }
+        // outer :for(int i=0; i<=5; i++){
+        //     if(i==3) continue ineer;
+        //     ineer : for(int j=0; j<=i; j++){
+        //         if(i==3) continue ineer;
+        //         System.out.print(i);
+        //     }
+        //     System.out.println();
+        // }
         // 0
         // 11
         // 222
