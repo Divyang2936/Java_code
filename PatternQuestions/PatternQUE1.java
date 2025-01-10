@@ -1,9 +1,9 @@
-/*Q: Print the patteern.
-    *****
-    *****
-    *****
-    *****
-*/
+// Q: Print the patteern.
+//     *****
+//     *****
+//     *****
+//     *****
+
 public class PatternQUE1 {
     public static void main(String[] args) {
         int n=4;
