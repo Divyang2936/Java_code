@@ -1,7 +1,7 @@
 package Mypackage1;
 
-public class myClass {
+public class MyClass {
     void print(){
-        System.out.println("this is my package 1");
+        System.out.println("this massage from package 1 ");
     }
 }
