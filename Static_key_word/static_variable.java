@@ -14,12 +14,13 @@ public class static_variable {
 
         Student newStudent1 = new Student();
         
-        Student.SchoolName = "knowledge ";
+
         newStudent1.StudentName = "Divyang";
         newStudent1.StudentAge = 20;
         System.out.println(Student.SchoolName);
         newStudent1.Print();
 
+        Student.SchoolName = "knowledge ";
         Student newStudent2 = new Student();
         newStudent2.StudentName = "Dev";
         newStudent2.StudentAge = 20;
