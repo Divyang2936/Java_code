@@ -29,10 +29,10 @@ class Employee {
         name = empName;
     }
 
-    //create simple constructor 
-    Employee(){
-        phoneNo=222;
-        name = "Dhaval";
-    }
+    // //create simple constructor 
+    // Employee(){
+    //     phoneNo=222;
+    //     name = "Dhaval";
+    // }
 
 }

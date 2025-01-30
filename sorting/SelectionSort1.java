@@ -1,5 +1,5 @@
 //selection sort
-public class sorting2 {
+public class SelectionSort1 {
     //print array
     public static void printarray(int arr[]) {
         for(int i=0; i<arr.length; i++){
@@ -26,5 +26,7 @@ public class sorting2 {
             arr[i] = temp;
         }
         printarray(arr);
+
+        
     }
 }

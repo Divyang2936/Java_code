@@ -1,23 +1,17 @@
 import java.util.Scanner;
 
 public class test {
-    public static void caller(int String){
+    public static void main(String [] args){
         Scanner sc=new Scanner(System.in);
-        String s1=sc.next();
-        int x=sc.nextInt();
-    }
-    public static void main(String[] args) {
-
-        System.out.println("================================");
-        for(int i=0;i<3;i++){
-            caller(i);
-
-            //Complete this line
+        int size = sc.nextInt();
+        int arr[] = new int[size];
+        for(int i=0; i<size; i++){
+            arr[i] = sc.nextInt();
         }
-        for(int i=0;i<3;i++){
-            System.out.printf("%-15s%03d\n",);
+
+        for(int i=0; i<arr.length; i++){
+            System.out.print(arr.length);
         }
-        System.out.println("================================");
-    
+        System.out.println();
     }
 }

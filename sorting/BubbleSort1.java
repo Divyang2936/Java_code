@@ -1,5 +1,6 @@
-//bubble sort
-public class sorting1 {
+public class BubbleSort1 {
+
+    //bubble sort
 
     public static void printarray(int arr[]) {
         for(int i=0; i<arr.length; i++){
