@@ -28,9 +28,9 @@ public class Test {
 
         //simpe constructor
         //if you not create simle constructor this will be give you error 
-        Employee engineer2 = new Employee( );
-        System.err.println(engineer2.getName());//cal; the constructor 
-        System.out.println(engineer2.getphoneNo());//cal; the constructor 
+        // Employee engineer2 = new Employee( );
+        // System.err.println(engineer2.getName());//cal; the constructor 
+        // System.out.println(engineer2.getphoneNo());//cal; the constructor 
 
     }
 }
