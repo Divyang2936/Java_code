@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class s1 {
+    public static int rollNo;
+    public static String name;
+
     public static void main(String[] args) {
                 Scanner sc = new Scanner(System.in);
         System.out.print("your age : ");

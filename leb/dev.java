@@ -1,27 +1,32 @@
-class Student {
-
-    int id;
-    String name;
-    static String clgname = "sou";
-    void disply(){
-        System.out.println(id +" " + name + " " + clgname);
-    }
-
-}
-
+// public class RandomLicensePlate {
 public class dev {
-    public static void main(String[] args) {
-        String mass = "hello";
-        Student s1 = new Student();
-        s1.id = 101;
-        s1.name = "abc";
-        s1.disply();
 
-        Student s2 = new Student();
-        s2.id = 102;
-        s2.name = "agc";
-        s2.disply();
+    
+
+public static void main(String[] args) {
+
+    StringBuilder licensePlate = new StringBuilder();
+
+    for (int i = 0; i < 6; i++) {
+
+        if (i < 3) { // Generate letters for the first three positions
+
+            char letter = (char) ('A' + Math.random() * ('Z' - 'A' + 1));
+
+            licensePlate.append(letter);
+
+        } else { // Generate digits for the last three positions
+
+            char digit = (char) ('0' + Math.random() * ('9' - '0' + 1));
+
+            licensePlate.append(digit);
+
+        }
 
     }
 
+    System.out.println("Generated License Plate: " + licensePlate.toString());
+
 }
+}
+
