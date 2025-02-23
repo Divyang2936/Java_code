@@ -15,7 +15,7 @@ public class type_casting {
 
 String s1= "3";
 int num = Integer.parseInt(s1);
-float num2 = Float.parseFloat(s1)
+float num2 = Float.parseFloat(s1);
 System.out.println(num);
     }
 }
