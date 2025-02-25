@@ -8,5 +8,6 @@ public class Practical2 {
 
         double dollar = rupees / 70 ;
         System.out.print("The amount in doller is : " + dollar );
+        sc.close();
     }
 }

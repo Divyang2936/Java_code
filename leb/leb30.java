@@ -22,5 +22,6 @@ public class leb30 {
         }
 
         System.out.println("Number of words starting with capital letters: " + count);
+        sc.close();
     }
 }

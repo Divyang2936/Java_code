@@ -22,6 +22,7 @@ public class _13 {
         }else{
             System.out.println("not ");
         }
+        sc.close();
     }
 }
 

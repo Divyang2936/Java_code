@@ -34,6 +34,7 @@ public class Practical3 {
         System.out.println("total marks is " + Totalmarks);
 
         System.out.print("Percentage is "+(Totalmarks*100)/(totalSubject*100) + "%");
+        sc.close();
 
     }
 }

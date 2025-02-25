@@ -77,5 +77,8 @@ public class leb27 {
                 }
                 System.out.println();
 
+
+                sc.close();
+
     }
 }

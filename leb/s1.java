@@ -15,5 +15,6 @@ public class s1 {
         
         System.out.println(age);
         System.out.println(full_name);
+        sc.close();
     }
 }
