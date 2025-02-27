@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayListCollection {
+public class ArrayListCollection1 {
 
     public static void main(String[] args) {
         //syntax of ArrayList
