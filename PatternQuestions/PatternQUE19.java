@@ -1,4 +1,4 @@
-/*Q:Print the pattern 
+        /*Q:Print the pattern 
 *        *
 **      **
 * *    * *

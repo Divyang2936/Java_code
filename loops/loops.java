@@ -6,14 +6,14 @@ public class loops {
             System.out.println("hello good morning" + i);
         }
 
-        while loop 
+        // while loop 
         int i = 1;
         while (i<5) {
             System.out.println("hello good morning");
             i++;
         }
 
-        do while loop 
+        // do while loop 
         int i = 1;
         do{
             System.out.println("hello good morning");
